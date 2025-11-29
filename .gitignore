@@ -1,0 +1,32 @@
+# Build artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.metadata/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+application-local.properties
+*.env
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar

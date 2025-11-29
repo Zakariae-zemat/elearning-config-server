@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: "C:\\Users\\user\\Desktop\\elearning\\elearning-config"
+          clone-on-start: true
+
+server:
+  port: 8888
